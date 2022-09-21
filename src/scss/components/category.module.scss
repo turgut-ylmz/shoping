@@ -1,0 +1,39 @@
+
+.navbar_ctg-info{
+  p{
+    margin-left: 27px;
+  }
+}
+h3 {
+  color: $purple;
+  margin-left: 27px;
+}
+.navbar_ctg1 {
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   margin: auto;
+  .navbar_ctg-div1 {
+    grid-column: span 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 100%;
+    align-items: center;
+    color: $purple;
+    p {
+      font-size: 0.75rem;
+    }
+    .navbar-icon1 {
+      font-size: 35px;
+      margin: auto;
+    }
+    .navbar-text1{
+      text-align: center;
+    }
+    
+  }
+}

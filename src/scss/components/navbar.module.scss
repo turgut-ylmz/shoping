@@ -1,0 +1,25 @@
+.navbar__category {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-top: 1px solid $gray-400;
+  margin: auto;
+
+  .navbar__category-div {
+    margin-top: 1rem;
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    cursor: pointer;
+    color: $red-600;
+    p {
+      font-size: 0.75rem;
+      margin: auto;
+    }
+    .navbar-icon {
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.details {
+  margin: 3rem auto;
+  .card {
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .card__image{
+        width: 500px;
+        height: 500px;
+      }
+      .card-body {
+        span {
+          width: 48px;
+          height: 26px;
+          text-align: center;
+          line-height: 26px;
+          font-size: 0.75rem;
+          display: inline-block;
+          background: $blue;
+          margin: 0 5px;
+          transition: 0.5s;
+          border-radius: 4px;
+          cursor: pointer;
+          &:hover {
+            background: $gray-900;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .card_button{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: $black;
+    border: none;
+    @include transition(0.3s);
+
+    &:hover {
+      background-color: $gray-900;
+      color: $white;
+    }
+  }
+}

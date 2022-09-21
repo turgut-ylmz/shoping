@@ -1,0 +1,23 @@
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./abstracts/mixin", "./abstracts/variables";
+@import "./components/header.module.scss";
+@import "./components/loading.module.scss";
+@import "./components/category.module.scss";
+@import "./components/info.module.scss";
+@import "./components/footer.module.scss";
+@import "./components/responsive";
+@import "./components/details.module.scss";
+@import "./components/navbar.module.scss";
+@import "./components/filter.module.scss";
+
+body {
+  line-height: 1;
+  color: $gray-900;
+  height: 100vh;
+  font-family: $font-family;
+}
+ul {
+  list-style-type: none;
+}
